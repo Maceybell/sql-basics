@@ -2,7 +2,12 @@
 CREATE TABLE person ( person_id SERIAL PRIMARY KEY, name VARCHAR(200), age INTEGER, height INTEGER, city VARCHAR(200), favorite_color VARCHAR(200));
 
 /* #2 */
-INSERT INTO person ( name, age, height, city, favorite_color ) VALUES ( 'First Last', 21, 182, 'City', 'Color' );
+INSERT INTO person ( name, age, height, city, favorite_color ) VALUES ( 'Macey Bell', 27, 170, 'Orem', 'Lavendar' ),
+ ( 'Madison Grant', 29, 170, 'Lehi', 'Orange' ),
+ ( 'Jessica Taylor', 27, 150, 'Provo', 'Blue' ),
+ ( 'Mariam Johnson', 27, 155, 'Provo', 'Purple' ),
+ ( 'John McTiernan', 60, 185, 'ranchester', 'Black' );
+
 
 /* #3 */
 SELECT * FROM person ORDER BY height DESC;

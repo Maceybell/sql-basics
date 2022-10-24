@@ -1,5 +1,8 @@
 /* #1 */
-INSERT INTO artist ( name ) VALUES ( 'artist name' );
+INSERT INTO artist ( name ) 
+VALUES ( 'Ke$ha' ),
+( 'Bayside' ),
+( 'The Used' );
 
 /* #2 */
 SELECT * FROM artist ORDER BY name DESC LIMIT 10;
